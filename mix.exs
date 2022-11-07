@@ -49,11 +49,11 @@ defmodule HammerBackendRedis.Mixfile do
   defp deps do
     [
       {:redix, "~> 1.0"},
-      {:hammer, "6.0.0"},
-      {:mock, "~> 0.3.7", only: :test},
-      {:ex_doc, "~> 0.24.2", only: :dev},
-      {:dialyxir, "~> 1.1.0", only: [:dev], runtime: false},
-      {:excoveralls, "~> 0.14.1", only: :test}
+      {:hammer, "~> 6.0"},
+      {:mock, "~> 0.3", only: :test},
+      {:ex_doc, "~> 0.24", only: :dev},
+      {:dialyxir, "~> 1.1", only: [:dev], runtime: false},
+      {:excoveralls, "~> 0.14", only: :test}
     ]
   end
 end
