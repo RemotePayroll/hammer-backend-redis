@@ -4,6 +4,7 @@
 
 [![Coverage Status](https://coveralls.io/repos/github/ExHammer/hammer-backend-redis/badge.svg?branch=master)](https://coveralls.io/github/ExHammer/hammer-backend-redis?branch=master)
 
+Deprecated: The official (https://github.com/ExHammer/hammer-backend-redis) library was updated to include all changes that were also made in this repo, so rely on the official one again!
 
 A Redis backend for the [Hammer](https://github.com/ExHammer/hammer) rate-limiter.
 
